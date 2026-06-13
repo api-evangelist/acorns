@@ -1,0 +1,10 @@
+name: Acorns Partner API Rate Limits
+description: Acorns Partner API rate limit details are not publicly disclosed. Access is granted through a formal onboarding process with Acorns. Rate limits are communicated during partner onboarding and depend on partner type and agreement.
+url: https://developer.acorns.com/
+contact: partner-api@acorns.com
+notes:
+  - Rate limit specifics are not publicly documented and are negotiated as part of the partner onboarding process.
+  - Partners (organizations using data internally) and Aggregators (organizations pulling data for their customers) may receive different rate limit tiers.
+  - A sandbox environment is available for testing before production deployment; sandbox rate limits may differ from production.
+  - All API requests require a valid OAuth access token; expired or invalid tokens are rejected.
+  - For rate limit inquiries, contact partner-api@acorns.com during onboarding discussions.

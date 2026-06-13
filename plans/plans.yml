@@ -1,0 +1,40 @@
+name: Acorns Subscription Plans
+description: Acorns offers three monthly subscription tiers providing access to micro-investing, retirement, banking, and financial wellness features.
+url: https://www.acorns.com/pricing/
+plans:
+  - name: Bronze
+    description: Entry-level plan with core investing, round-ups, retirement account, and checking with no overdraft fees.
+    price: 3.00
+    unit: month
+    features:
+      - Acorns Invest (diversified portfolio, Round-Ups spare change investing)
+      - Acorns Later (IRA retirement account)
+      - Acorns Checking (no overdraft fees, Visa debit card)
+      - 55,000+ fee-free ATMs (AllPoint network)
+      - Acorns Earn (cashback with 450+ partner brands)
+      - Acorns Learn (educational resources)
+  - name: Silver
+    description: Mid-tier plan adding high-yield emergency savings, IRA match, enhanced earn bonuses, and live expert access.
+    price: 6.00
+    unit: month
+    features:
+      - Everything in Bronze
+      - 1% IRA match on first-year contributions
+      - Emergency Savings (3.35% APY)
+      - 25% bonus investment match on Acorns Earn purchases
+      - Live expert Q&As
+  - name: Gold
+    description: Premium plan with the highest IRA match, kids investing, custom portfolios, Money Manager automation, tax filing, and insurance benefits.
+    price: 12.00
+    unit: month
+    features:
+      - Everything in Silver
+      - 3% IRA match on first-year contributions
+      - Acorns Early Invest (kids investment account with 1% match)
+      - Custom portfolio options (individual stocks and ETFs)
+      - Up to 50% bonus investment match on Acorns Earn
+      - Acorns Early money app and debit card for kids
+      - Money Manager (automated money splitting across invest/save/spend)
+      - Free tax filing through April
+      - $10,000 life insurance policy
+      - No-cost Will creation

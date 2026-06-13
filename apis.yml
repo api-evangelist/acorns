@@ -1,0 +1,78 @@
+aid: acorns
+name: Acorns
+description: Acorns is a micro-investing and personal finance platform that helps everyday Americans grow their wealth through automated round-up investments, diversified portfolios, retirement accounts, high-yield savings, and financial wellness tools. The Acorns Partner API enables authorized third parties to access Acorns user data on behalf of users via OAuth 2.0.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/acorns/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+type: Index
+tags:
+  - Micro-Investing
+  - Personal Finance
+  - Fintech
+  - Round-Ups
+  - Robo-Investing
+  - Retirement
+  - Savings
+  - Banking
+  - Financial Wellness
+apis:
+  - aid: acorns:partner-api
+    name: Acorns Partner API
+    description: The Acorns Partner API combines OAuth and Partner APIs to allow authorized third parties (partners and aggregators) to access Acorns user data on behalf of said users. Organizations must complete an onboarding process to obtain credentials and sandbox access.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.acorns.com/
+    baseURL: https://developer.acorns.com/
+    tags:
+      - OAuth
+      - Partner API
+      - Micro-Investing
+      - Personal Finance
+      - Aggregation
+    properties:
+      - type: Documentation
+        url: https://developer.acorns.com/
+      - type: OAuthDocumentation
+        url: https://developer.acorns.com/category/oauth
+      - type: PartnerAPIDocumentation
+        url: https://developer.acorns.com/category/partner
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/acorns/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/acorns/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/acorns/refs/heads/main/finops/finops.yml
+    contact:
+      - FN: Acorns Partner API Team
+        email: partner-api@acorns.com
+common:
+  - type: Website
+    url: https://www.acorns.com/
+  - type: DeveloperPortal
+    url: https://developer.acorns.com/
+  - type: Pricing
+    url: https://www.acorns.com/pricing/
+  - type: Security
+    url: https://www.acorns.com/security
+  - type: PrivacyPolicy
+    url: https://www.acorns.com/privacy
+  - type: TermsOfService
+    url: https://www.acorns.com/terms
+  - type: HelpCenter
+    url: https://support.acorns.com/
+  - type: Press
+    url: https://www.acorns.com/press/
+  - type: Blog
+    url: https://www.acorns.com/learn/
+  - type: GitHub
+    url: https://github.com/Acornsgrow
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/acorns/refs/heads/main/plans/plans.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/acorns/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/acorns/refs/heads/main/finops/finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

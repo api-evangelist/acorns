@@ -1,0 +1,18 @@
+name: Acorns Financial Operations (FinOps)
+description: Financial operations context for Acorns API consumers covering subscription costs, investment fees, and cost considerations for integrating with the Acorns platform.
+url: https://www.acorns.com/pricing/
+notes:
+  - The Acorns Partner API is available by invitation/application only; there is no public API marketplace pricing.
+  - End-user subscription costs (Bronze $3/mo, Silver $6/mo, Gold $12/mo) are borne by Acorns customers, not API partners.
+  - No transaction fees or AUM-based fees are charged to end users; cost structure is flat monthly subscription.
+  - Acorns Invest portfolios are built on low-cost ETFs; underlying fund expense ratios are separate from subscription cost.
+  - API partners and aggregators should budget for OAuth credential management, sandbox testing infrastructure, and compliance review as part of integration costs.
+  - SIPC protection covers securities up to $500,000; FDIC protection covers checking accounts up to $250,000. These protections benefit end users of integrated applications.
+  - For commercial API partnership inquiries, contact partner-api@acorns.com.
+subscription_plans:
+  - tier: Bronze
+    monthly_cost_usd: 3.00
+  - tier: Silver
+    monthly_cost_usd: 6.00
+  - tier: Gold
+    monthly_cost_usd: 12.00
