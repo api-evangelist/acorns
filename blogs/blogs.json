@@ -1,0 +1,40 @@
+{
+  "aid": "acorns",
+  "name": "Acorns Blog",
+  "description": "Financial wellness and investing content from Acorns.",
+  "url": "https://www.acorns.com/learn/",
+  "created": "2026-06-13",
+  "modified": "2026-06-13",
+  "blogs": [
+    {
+      "title": "2025 Acorns Money Matters Report™",
+      "url": "https://www.acorns.com/learn/acorns/money-matters-report-2025/",
+      "description": "Read on to see how people felt about their finances in 2025.",
+      "tags": ["finance", "report", "personal-finance"]
+    },
+    {
+      "title": "Can You Invest in SpaceX or Anthropic Before the IPO?",
+      "url": "https://www.acorns.com/learn/investing/invest-in-spacex-anthropic-before-ipo/",
+      "description": "Explores early investment opportunities in private companies before their public offerings.",
+      "tags": ["investing", "ipo", "private-companies"]
+    },
+    {
+      "title": "What is an IPO? How Initial Public Offerings Work",
+      "url": "https://www.acorns.com/learn/investing/what-is-an-ipo/",
+      "description": "Educational overview of initial public offerings and how the IPO process functions.",
+      "tags": ["investing", "ipo", "education"]
+    },
+    {
+      "title": "Why a crypto-only strategy is a high-risk bet",
+      "url": "https://www.acorns.com/learn/investing/is-crypto-a-good-investment/",
+      "description": "Analysis of the risks associated with concentrating investments exclusively in cryptocurrency.",
+      "tags": ["investing", "crypto", "risk"]
+    },
+    {
+      "title": "Why keeping cash stashed away can cost you",
+      "url": "https://www.acorns.com/learn/investing/cost-of-stashing-cash/",
+      "description": "Discusses the financial impact of holding excessive cash rather than investing it.",
+      "tags": ["investing", "cash", "savings"]
+    }
+  ]
+}

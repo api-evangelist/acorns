@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.acorns.com/",
+  "name": "Acorns",
+  "description": "Acorns is a micro-investing and personal finance platform that helps everyday Americans grow their wealth through automated round-up investments, diversified portfolios, retirement accounts, high-yield savings, and financial wellness tools.",
+  "url": "https://www.acorns.com/",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://github.com/Acornsgrow"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "partner-api@acorns.com",
+    "contactType": "API Support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Acorns Partner API",
+    "description": "The Acorns Partner API combines OAuth and Partner APIs to allow authorized third parties (partners and aggregators) to access Acorns user data on behalf of said users.",
+    "url": "https://developer.acorns.com/"
+  },
+  "knowsAbout": [
+    "Micro-Investing",
+    "Personal Finance",
+    "Fintech",
+    "Round-Ups",
+    "Robo-Investing",
+    "Retirement",
+    "Savings",
+    "Banking",
+    "Financial Wellness"
+  ],
+  "termsOfService": "https://www.acorns.com/terms",
+  "privacyPolicy": "https://www.acorns.com/privacy"
+}
