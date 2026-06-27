@@ -9,12 +9,12 @@
   "feeds": [
     {
       "source": "https://www.acorns.com/learn/",
-      "feed_url": "https://www.acorns.com/learn/",
-      "title": "Acorns Learn",
-      "saved": 2,
-      "method": "html-scrape"
+      "feed_url": "",
+      "saved": 0,
+      "method": "agent-scrape"
     }
   ],
   "post_count": 2,
-  "fetched": "2026-06-21T17:00:00Z"
+  "fetched": "2026-06-27T12:21:03Z",
+  "agent_pulled": "2026-06-27"
 }
