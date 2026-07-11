@@ -47,6 +47,10 @@ apis:
       - FN: Acorns Partner API Team
         email: partner-api@acorns.com
 common:
+  - type: VulnerabilityDisclosure
+    url: security/acorns-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/acorns-domain-security.yml
   - type: Website
     url: https://www.acorns.com/
   - type: DeveloperPortal
