@@ -8,13 +8,14 @@
   "repo": "acorns",
   "feeds": [
     {
-      "source": "https://www.acorns.com/learn/",
-      "feed_url": "",
+      "source": "https://www.acorns.com/press/",
+      "feed_url": "https://www.acorns.com/press/",
+      "title": "",
       "saved": 0,
-      "method": "agent-scrape"
+      "method": "none"
     }
   ],
   "post_count": 2,
-  "fetched": "2026-06-27T12:21:03Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "agent_pulled": "2026-06-27"
 }
