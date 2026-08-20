@@ -37,6 +37,12 @@ apis:
     humanURL: https://developer.acorns.com/
     baseURL: https://developer.acorns.com/
     tags:
+      - Authentication
+      - Partner API
+      - Micro-Investing
+      - Personal Finance
+      - Aggregation
+    tags_raw:
       - OAuth
       - Partner API
       - Micro-Investing
