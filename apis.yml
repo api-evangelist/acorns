@@ -1,6 +1,17 @@
 aid: acorns
 name: Acorns
 description: Acorns is a micro-investing and personal finance platform that helps everyday Americans grow their wealth through automated round-up investments, diversified portfolios, retirement accounts, high-yield savings, and financial wellness tools. The Acorns Partner API enables authorized third parties to access Acorns user data on behalf of users via OAuth 2.0.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
