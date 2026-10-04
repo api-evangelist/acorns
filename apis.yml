@@ -43,6 +43,7 @@ tags:
   - Savings
   - Banking
   - Financial Wellness
+  - Consumer Finance
 apis:
   - aid: acorns:partner-api
     name: Acorns Partner API
