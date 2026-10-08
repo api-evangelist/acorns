@@ -42,3 +42,32 @@ plans:
       - Free tax filing through April
       - $10,000 life insurance policy
       - No-cost Will creation
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units:
+  - period
+  plans:
+  - name: Bronze
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Silver
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Gold
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
