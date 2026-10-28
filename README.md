@@ -64,31 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Acorns is a micro-investing and personal finance platform that helps everyday Americans grow their wealth through automated round-up investments, diversified portfolios, retirement accounts, high-yield savings, and financial wellness tools.
+Acorns is a micro-investing and personal finance platform that helps everyday Americans grow their wealth through automated round-up investments, diversified portfolios, retirement accounts, high-yield savings, and financial wellness tools. The Acorns Partner API enables authorized third parties to access Acorns user data on behalf of users via OAuth 2.0.
 
-## Partner API
+**Areas:** Micro-Investing · Personal Finance · Fintech · Round-Ups · Robo-Investing · Retirement · Savings · Banking · Financial Wellness · Consumer Finance
 
-The Acorns Partner API is a combination of OAuth and Partner APIs that authorized third parties can use to access Acorns user data on behalf of users. Access is granted through a formal onboarding process.
+## Acorns on APIs.io
 
-- Developer Portal: https://developer.acorns.com/
-- OAuth API: https://developer.acorns.com/category/oauth
-- Partner API: https://developer.acorns.com/category/partner
-- Contact: partner-api@acorns.com
+Everything profiled for Acorns is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/acorns/](https://apis.io/providers/acorns/)** — or go straight to one of the APIs or properties below.
 
-## Subscription Plans
+### APIs (1)
 
-| Plan   | Monthly Cost | Key Features |
-|--------|-------------|--------------|
-| Bronze | $3.00/mo    | Invest, Round-Ups, IRA, Checking |
-| Silver | $6.00/mo    | + 1% IRA match, Emergency Savings, 25% Earn bonus |
-| Gold   | $12.00/mo   | + 3% IRA match, Kids investing, Custom portfolios, Money Manager, Tax filing, Life insurance |
+- [Acorns Partner API](https://apis.io/apis/acorns/partner-api/) — The Acorns Partner API combines OAuth and Partner APIs to allow authorized third parties (partners and aggregators) to access Acorns user data on behalf of…
 
-## Resources
+### Published properties
 
-- [APIs.json Profile](apis.yml)
-- [Plans](plans/plans.yml)
-- [Rate Limits](rate-limits/rate-limits.yml)
-- [FinOps](finops/finops.yml)
-- [Acorns Website](https://www.acorns.com/)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Acorns Domain Security](https://apis.io/security/acorns/acorns-domain-security/)
+- [Acorns Vulnerability Disclosure](https://apis.io/security/acorns/acorns-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/acorns/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/acorns/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/acorns/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.acorns.com/)
+- [Pricing](https://www.acorns.com/pricing/)
+- [Blog](https://www.acorns.com/learn/)
 - [Security](https://www.acorns.com/security)
-- [GitHub](https://github.com/Acornsgrow)
+- [Terms of service](https://www.acorns.com/terms)
+- [Privacy policy](https://www.acorns.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 17.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 39.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acorns/](https://apis.io/providers/acorns/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Acorns: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/acorns/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
